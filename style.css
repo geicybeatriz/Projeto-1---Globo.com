@@ -1,0 +1,315 @@
+/*Aqui, coloquei a fonte que predomina no projeto*/
+body {
+  font-family: "Encode Sans", sans-serif;
+  background: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/*configurações da logo da globo, de acordo com o figma*/
+.barra-topo {
+  width: 1250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+.logo-globo {
+  width: 171px;
+  height: auto;
+}
+
+/*configurações do menu de navegação, mas resolvi colocar tudo numa outra div (item-menu) pra melhor 
+organizar as caixas do menu*/
+.menu-de-navegacao {
+  border-top: solid 1px #ebedef;
+  border-bottom: solid 1px #ebedef;
+}
+
+.item-menu {
+  height: 40px;
+  font-family: "Encode Sans", sans-serif;
+  font-weight: bold;
+  font-size: 19px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+/*pra tirar aquele efeito de hyperlink dos links? kkkkkkkkkkkkk
+sei nem como chamar isso*/
+a {
+  text-decoration: none;
+}
+
+/*Configuração dos p dentro das caixinhas do menu*/
+.g1-menu {
+  color: #c3170c;
+}
+.oglobo-menu {
+  color: #1e4b9b;
+}
+.valor-menu {
+  color: #006766;
+}
+.ge-menu {
+  color: #07aa47;
+}
+.cartola-menu {
+  color: #e3662b;
+}
+.globoplay-menu {
+  color: #fb0735;
+}
+.dropz-menu {
+  color: #ff75bb;
+}
+.gshow-menu {
+  color: #ec7d00;
+}
+.quem-menu {
+  color: #323333;
+}
+.receitas-menu {
+  color: #a81d83;
+}
+
+/*configuração da caixa de noticias da primeira página*/
+.primeira-pagina {
+  margin-top: 34px;
+  width: 624px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.vacinados {
+  font-size: 52px;
+  font-weight: bold;
+  color: #c4160c;
+}
+.ministros {
+  width: 622px;
+  height: 25px;
+  margin-top: 29px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.01em;
+  color: #303134;
+}
+.bandeiras {
+  width: 622px;
+  height: 25px;
+  margin-top: 7px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #303134;
+}
+
+/*divisórias fiz elas separadas porque tive medo de confundir*/
+.divisoria-horizontal-1 {
+  width: 624px;
+  height: 1px;
+  background-color: #ebedef;
+  fill: solid;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+.divisoria-horizontal-2 {
+  width: 624px;
+  height: 1px;
+  background-color: #ebedef;
+  fill: solid;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 36px;
+  margin-bottom: 22px;
+}
+.divisoria-vertical-meio {
+  width: 1px;
+  height: 845px;
+  background-color: #ebedef;
+  fill: solid;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 36px;
+}
+.divisoria-vertical-direita {
+  width: 1px;
+  height: 845px;
+  background-color: #ebedef;
+  fill: solid;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 36px;
+}
+
+/*Configurações das noticias */
+.noticias-esquerda-com-fotos {
+  width: 624px;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.fotos-esquerda {
+  width: 193px;
+  height: 110px;
+  border-radius: 12px;
+  margin-bottom: 3px;
+}
+.notas-em-vermelho {
+  width: 192px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  color: #c4170c;
+  margin-top: 3px;
+}
+.titulo-noticia {
+  width: 192px;
+  height: auto;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  color: #2f3134;
+  margin-top: 6px;
+}
+.descricao-noticia {
+  width: 174px;
+  height: auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.048em;
+  color: #2f3134;
+  margin-top: 4.5px;
+}
+.noticias-sem-fotos {
+  width: 624px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.sabatina {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+/*container de esportes*/
+.container-esportes {
+  width: 240px;
+  height: auto;
+  margin-top: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.fotos-esportes {
+  width: 240px;
+  height: 128px;
+  border-radius: 12px;
+}
+.texto-verde {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  color: #16ae54;
+  margin-top: 11px;
+}
+.titulo-esportes {
+  width: 240px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  color: #2f3134;
+  margin-top: 6px;
+}
+.emocionado {
+  width: 240px;
+  height: 84px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  color: #2f3134;
+  margin-top: 6px;
+}
+.descricao-esportes {
+  width: 217px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.048em;
+  color: #2f3134;
+  margin-top: 4px;
+}
+.esportes {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.greve {
+  margin-top: 50px;
+}
+.campeonato {
+  margin-top: 42px;
+}
+
+/*container de TV e novelas, o chato é que os espaçamentos são diferentes e n consegui
+deixar o codigo muito limpo aqui.*/
+.container-TV {
+  width: 240px;
+  margin-top: 36px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.texto-amarelo {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  color: #ec8006;
+  margin-top: 11px;
+}
+.verdades {
+  margin-top: 23px;
+}
+.tempos {
+  margin-top: 50px;
+}
+
+.navio-cargueiro {
+  width: 1250px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/*Efeitos de brilho quando o cursor passar pelo */
+img:hover {
+  filter: brightness(0.5);
+}
+p:hover {
+  filter: brightness(1.3);
+}
